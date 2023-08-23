@@ -1,23 +1,34 @@
 
 ## Kullanılan Teknolojiler
 
-Bu proje aşağıdaki teknolojileri kullanmaktadır:
-
-- **Spring Boot:** Spring Boot, hızlı ve kolay bir şekilde Java tabanlı uygulamalar oluşturmanıza olanak tanır.
-
-- **JPA (Java Persistence API):** JPA, veritabanı işlemleri için kullanılan bir Java API'sidir ve bu projede veritabanı işlemleri için kullanılmaktadır.
-
-- **Doğrulama (Validation):** Doğrulama, giriş verilerinin kontrol edilmesi için kullanılmaktadır ve uygulama güvenliğini artırır.
-
-- **Web:** Spring Boot Web, HTTP istemcilerine hizmet vermek için kullanılır ve bu projede web uygulaması geliştirmek için kullanılmaktadır.
-
-- **Spring Boot DevTools:** Geliştirme sürecini kolaylaştıran araçları içerir ve kod değişikliklerini hızlıca yansıtmak için kullanılır.
-
-- **PostgreSQL:** PostgreSQL, veritabanı yönetim sistemi olarak kullanılır ve bu projede veri depolamak için tercih edilmektedir.
-
-- **Project Lombok:** Lombok, Java sınıflarını daha az kodla oluşturmanıza yardımcı olur ve bu projede kullanılmaktadır.
-
+- **Spring Boot:**
+- **JPA (Java Persistence API):** 
+- **Doğrulama (Validation):** 
+- **Web:** Spring Boot Web,
+- **Spring Boot DevTools:** 
+- **PostgreSQL:** 
+- **Project Lombok:** 
 - **OpenAPI (Swagger):** OpenAPI belgelerini oluşturmak ve API'yi görselleştirmek için kullanılır. API dokümantasyonunu kolaylaştırır.
 
-Bu teknolojiler, projenin temelini oluşturur ve uygulamanın işlevselliğini destekler.
+## Kullanılan Ortak Sınıflar
+
+1. **BaseAdditionalFields**:
+   - Bu sınıf, diğer tüm Entity sınıflarında kullanılması gereken ortak alanları içerir.
+   - Veritabanı tablolarındaki ortak alanları yönetmek için kullanılır.
+
+
+2. **BaseEntity**:
+   - BaseEntity sınıfı, tüm Entity sınıflarının temelini oluşturur.
+   - Serializable ve Cloneable arabirimlerini uygular ve BaseEntityModel arabirimini içerir.
+
+
+3. **BaseEntityService**:
+   - BaseEntityService, BaseEntity sınıfıyla çalışan bir servis sınıfıdır.
+   - Generic tür parametreleri kullanarak herhangi bir BaseEntity türü ve JpaRepository tipi ile çalışabilir.
+
+
+4. **RestResponse**:
+   - RestResponse, RESTful API yanıtlarını temsil etmek için kullanılır.
+   - Generic tür parametresi ile birlikte kullanılır ve farklı veri türlerini temsil etmek için esneklik sunar.
+
 
