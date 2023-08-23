@@ -25,6 +25,17 @@
 3. **BaseEntityService**:
    - BaseEntityService, BaseEntity sınıfıyla çalışan bir servis sınıfıdır.
    - Generic tür parametreleri kullanarak herhangi bir BaseEntity türü ve JpaRepository tipi ile çalışabilir.
+  
+![](Screenshot 2023-08-23 at 13.39.50.png)
+
+## OpenAPI definition
+
+
+![](Screenshot 2023-08-23 at 13.38.55.png)
+
+## Project Diagram
+
+
 
 
 4. **RestResponse**:
