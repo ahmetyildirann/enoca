@@ -10,6 +10,23 @@
 - **Project Lombok:** 
 - **OpenAPI (Swagger):** OpenAPI belgelerini oluşturmak ve API'yi görselleştirmek için kullanılır. API dokümantasyonunu kolaylaştırır.
 
+## Swagger EndPoint Dökümantasyonu
+
+![](swagger.jpg)
+
+
+## Proje Diagram
+
+![](diagram.jpg)
+
+
+
+## Database Diagram
+
+![](database.jpg)
+
+
+
 ## Kullanılan Ortak Sınıflar
 
 1. **BaseAdditionalFields**:
@@ -29,21 +46,10 @@
 4. **RestResponse**:
    - RestResponse, RESTful API yanıtlarını temsil etmek için kullanılır.
    - Generic tür parametresi ile birlikte kullanılır ve farklı veri türlerini temsil etmek için esneklik sunar.
-  
+
    
-  
-![](swagger.jpg)
-
-## Swagger Documantation
 
 
-![](diagram.jpg)
-
-## Project Diagram
-
-
-![](database.jpg)
-## Database Diagram
 
 
 
