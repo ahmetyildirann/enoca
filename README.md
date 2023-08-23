@@ -26,20 +26,25 @@
    - BaseEntityService, BaseEntity sınıfıyla çalışan bir servis sınıfıdır.
    - Generic tür parametreleri kullanarak herhangi bir BaseEntity türü ve JpaRepository tipi ile çalışabilir.
   
-![](Screenshot 2023-08-23 at 13.39.50.png)
+4. **RestResponse**:
+   - RestResponse, RESTful API yanıtlarını temsil etmek için kullanılır.
+   - Generic tür parametresi ile birlikte kullanılır ve farklı veri türlerini temsil etmek için esneklik sunar.
+  
+   
+  
+![](swagger.jpg)
 
-## OpenAPI definition
+## Swagger Documantation
 
 
-![](Screenshot 2023-08-23 at 13.38.55.png)
+![](diagram.jpg)
 
 ## Project Diagram
 
 
+![](database.jpg)
+## Database Diagram
 
 
-4. **RestResponse**:
-   - RestResponse, RESTful API yanıtlarını temsil etmek için kullanılır.
-   - Generic tür parametresi ile birlikte kullanılır ve farklı veri türlerini temsil etmek için esneklik sunar.
 
 
